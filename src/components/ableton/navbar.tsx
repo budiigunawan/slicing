@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <>
+    <header>
       <nav className="p-5 xl:px-10 flex justify-between bg-white border-b-2 border-b-gray-100">
         <div className="flex gap-8">
           <img src="/ableton.svg" alt="ableton logo" />
@@ -59,6 +59,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </header>
   );
 };
